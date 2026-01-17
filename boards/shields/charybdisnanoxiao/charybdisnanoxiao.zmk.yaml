@@ -1,0 +1,15 @@
+file_format: "1"
+id: charybdisnanoxiao
+name: CharybdisNanoXIAO
+type: shield
+url: https://github.com/RaulHuertas/nutycornenano/
+requires: [seeeduino_xiao_ble]
+exposes: []
+features:
+  - keys
+  - studio
+  - display
+  - i2c
+siblings:
+  - charybdisnanoxiao_left
+  - charybdisnanoxiao_right
