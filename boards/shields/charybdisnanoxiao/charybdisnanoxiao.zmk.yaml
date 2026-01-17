@@ -2,7 +2,7 @@ file_format: "1"
 id: charybdisnanoxiao
 name: CharybdisNanoXIAO
 type: shield
-url: https://github.com/RaulHuertas/nutycornenano/
+url: https://github.com/RaulHuertas/CharybisNanoXIAO/
 requires: [seeeduino_xiao_ble]
 exposes: []
 features:

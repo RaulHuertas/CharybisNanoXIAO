@@ -29,13 +29,6 @@
         events = <0>;
     };
 
-    ext-power {
-		compatible = "zmk,ext-power-generic";
-		init-delay-ms = <50>;
-		control-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
-        status = "okay";
-	};
-
     default_transform: keymap_transform_0 {
 		compatible = "zmk,matrix-transform";
 		columns = <10>;

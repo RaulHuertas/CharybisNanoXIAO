@@ -26,7 +26,7 @@ if SHIELD_CHARYBDISNANOXIAO_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
-    default "CharybdisNanoXIAO"
+    default "CharyNanoXIAO"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

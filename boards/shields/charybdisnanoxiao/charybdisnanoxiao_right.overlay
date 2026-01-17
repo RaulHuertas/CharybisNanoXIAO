@@ -7,7 +7,7 @@
 #include "charybdisnanoxiao.dtsi"
 
 &default_transform {
-	col-offset = <6>;
+	col-offset = <5>;
 };
 
 
@@ -22,10 +22,10 @@
 		, <&gpio1 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>   //Col4
 		;
   row-gpios
-    = <&gpio1 7  GPIO_ACTIVE_HIGH>     //Row0
+    = <&gpio1 7   GPIO_ACTIVE_HIGH>     //Row0
     , <&gpio0 31  GPIO_ACTIVE_HIGH>     //Row1
-    , <&gpio0 10 GPIO_ACTIVE_HIGH>    //Row2
-    , <&gpio0 9 GPIO_ACTIVE_HIGH>    //Row3
+    , <&gpio0 10  GPIO_ACTIVE_HIGH>    //Row2
+    , <&gpio0 9   GPIO_ACTIVE_HIGH>    //Row3
     ;
 };
 
