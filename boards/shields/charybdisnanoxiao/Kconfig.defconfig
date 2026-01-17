@@ -2,7 +2,7 @@ if SHIELD_CHARYBDISNANOXIAO_LEFT
 
 # Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
-    default "CharybdisNanoXIAO"
+    default "CharyNanoXIAO"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
