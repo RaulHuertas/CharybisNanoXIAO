@@ -20,7 +20,6 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
-        zmk,underglow = &led_strip;
     };
 
     mock_kscan: mock_kscan_0 {
