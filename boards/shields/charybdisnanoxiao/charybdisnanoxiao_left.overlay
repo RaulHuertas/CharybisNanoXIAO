@@ -34,7 +34,7 @@
 
     mouse0_input_listener {
         status = "okay";
-        device  = <&trackball_split>;
+        //device  = <&trackball_split>;
     };
 
 };
