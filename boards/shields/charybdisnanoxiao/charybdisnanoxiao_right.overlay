@@ -49,3 +49,10 @@
         force-awake;
 	};
 };
+
+
+&glidepoint_split {
+    device = <&trackball0>;
+    input-processors = <&zip_xy_scaler 1 1>;
+};
+
