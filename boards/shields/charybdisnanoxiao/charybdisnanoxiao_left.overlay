@@ -32,12 +32,10 @@
         //zephyr,display = &oled_128x32;
     };
 
-//    mouse0_input_listener {
-//        status = "okay";
-//    };
-    &trackbball_split {
-        status = "disabled";
-    }
+    mouse0_input_listener {
+        status = "okay";
+        device  = <&trackball_split>;
+    };
 
 };
 
