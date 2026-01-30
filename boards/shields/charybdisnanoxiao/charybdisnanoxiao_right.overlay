@@ -39,9 +39,9 @@
 
 		// paw3395 driver parameters
 		irq-gpios = <&gpio1 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <12000>;
-		// swap-xy; /* optional */
-		//invert-x; /* optional */
+		cpi = <20000>;
+		// swap-xy;  /* optional */
+		// invert-x; /* optional */
 		// invert-y; /* optional */
 		evt-type = <INPUT_EV_REL>;
 		x-input-code = <INPUT_REL_X>;
@@ -49,7 +49,6 @@
         force-awake;
 	};
 };
-
 
 &trackball_split {
     device = <&trackball0>;
