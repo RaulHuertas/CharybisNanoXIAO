@@ -52,7 +52,6 @@
 };
 
 &trackball_split {
-    status = "okay";
     device = <&trackball0>;
     input-processors = <&zip_xy_scaler 1 1>;
 };

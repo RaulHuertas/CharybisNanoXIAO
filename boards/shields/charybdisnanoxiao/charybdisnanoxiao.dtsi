@@ -34,7 +34,6 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8)  RC(3,9
         #address-cells = <1>;
         #size-cells = <0>;
         trackball_split: trackball_split@0 {
-            status = "disabled";
             compatible = "zmk,input-split";
             reg = <0>;
         };
@@ -43,13 +42,13 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,6) RC(3,7) RC(3,8)  RC(3,9
     mouse0_input_listener: trackball_listener {
         status = "disabled";
         compatible = "zmk,input-listener";
-        device = <&trackball_split>;
+        //device = <&trackball_split>;
     };
 
 };
 
 &physical_layout0 {
-    kscan = <&kscan0>;
+    kscan = <&kscan>;
     transform = <&default_transform>;
 };
 
