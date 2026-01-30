@@ -31,20 +31,11 @@
     chosen {
         //zephyr,display = &oled_128x32;
     };
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-        trackball_split: trackball_split@0{
-            compatible = "zmk,input-split";
-            reg = <0>;
-            //status = "okay";
-        };
-    };
 
     mouse0_input_listener {
-        status = "disabled";
-        device = <&trackball_split>;
+        status = "okay";
         compatible = "zmk,input-listener";
+        device = <&trackball_split>;
     };
 };
 
