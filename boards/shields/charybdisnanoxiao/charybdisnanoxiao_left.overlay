@@ -34,8 +34,6 @@
 
     mouse0_input_listener {
         status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball_split>;
     };
 };
 
