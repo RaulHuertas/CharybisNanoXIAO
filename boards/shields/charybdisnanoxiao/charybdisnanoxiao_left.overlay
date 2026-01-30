@@ -34,17 +34,17 @@
     split_inputs {
         #address-cells = <1>;
         #size-cells = <0>;
-        glidepoint_split: glidepoint_split@0{
+        trackball_split: glidepoint_split@0{
             compatible = "zmk,input-split";
             reg = <0>;
             //status = "okay";
         };
     };
 
-    glidepoint_listener: glidepoint_listener {
+    mouse0_input_listener {
+        status = "disabled";
         compatible = "zmk,input-listener";
-        status = "okay";
-        device = <&glidepoint_split>;
+        device = <&trackball_split>;
     };
 };
 

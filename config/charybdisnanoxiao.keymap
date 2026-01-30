@@ -20,8 +20,6 @@
 
     mouse0_input_listener {
         status = "okay";
-        compatible = "zmk,input-listener";
-        device = <&trackball0>;
         input-processors = <&zip_xy_scaler 4 2>;
         scroller {
             layers = <1 3>;
