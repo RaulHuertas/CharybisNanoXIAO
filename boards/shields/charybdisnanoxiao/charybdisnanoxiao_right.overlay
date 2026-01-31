@@ -36,12 +36,11 @@
 		compatible = "pixart,paw3395";
 	    status = "okay";
 		reg = <0>;
-		//spi-max-frequency = <4000000>;
-		spi-max-frequency = <500000>;
+		spi-max-frequency = <4000000>;
 
 		// paw3395 driver parameters
 		irq-gpios = <&gpio1 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <20000>;
+		cpi = <12000>;
 		// swap-xy;  /* optional */
 		// invert-x; /* optional */
 		// invert-y; /* optional */
