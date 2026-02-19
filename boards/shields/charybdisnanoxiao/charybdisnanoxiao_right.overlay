@@ -40,7 +40,7 @@
 
 		// paw3395 driver parameters
 		irq-gpios = <&gpio1 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <20000>;
+		cpi = <10000>;
 		swap-xy;  /* optional */
 		invert-x; /* optional */
 		//invert-y; /* optional */
