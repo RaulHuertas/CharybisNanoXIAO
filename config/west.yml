@@ -6,10 +6,12 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-    - name: caksoylar  # 
-      url-base: https://github.com/caksoylar 
-    - name: badjeff
-      url-base: https://github.com/badjeff
+    #- name: caksoylar  # 
+    #  url-base: https://github.com/caksoylar 
+    #- name: badjeff
+    #  url-base: https://github.com/badjeff
+    - name: RaulHuertas
+      url-base: https://github.com/RaulHuertas
 
 
   projects:
@@ -18,10 +20,10 @@ manifest:
       revision: v0.3
       import: app/west.yml
     - name: zmk-rgbled-widget 
-      remote: caksoylar
+      remote: RaulHuertas
       revision: v0.3
     - name: zmk-paw3395-driver
-      remote: badjeff
+      remote: RaulHuertas
       revision: main
   self:
     path: config
