@@ -7,6 +7,7 @@
 #include "charybdisnanoxiao.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
+
 &default_transform {
 	col-offset = <5>;
 };
@@ -40,7 +41,7 @@
 
 		// paw3395 driver parameters
 		irq-gpios = <&gpio1 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-		cpi = <8000>;
+		cpi = <4000>;
 		swap-xy;  /* optional */
 		invert-x; /* optional */
 		//invert-y; /* optional */
