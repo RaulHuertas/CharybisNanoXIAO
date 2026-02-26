@@ -87,8 +87,8 @@
 
         mouse {
             bindings = <
-  &none           &mkp RCLK       &mkp LCLK        &mkp MCLK  &none  &mmv MOVE_LEFT  &mkp MCLK       &mkp LCLK       &mkp RCLK        &none
-  &msc SCRL_UP    &mkp RCLK       &mkp LCLK        &mkp MCLK  &none  &none           &mkp MCLK       &mkp LCLK       &mkp RCLK        &msc SCRL_UP
+  &none           &mkp RCLK       &mkp LCLK        &mkp MCLK  &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP    &mmv MOVE_RIGHT  &none
+  &msc SCRL_UP    &mkp MCLK       &mkp LCLK        &mkp RCLK  &none  &none           &mkp MCLK       &mkp LCLK       &mkp RCLK        &msc SCRL_UP
   &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &none      &none  &kp CAPSLOCK    &studio_unlock  &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_DOWN
   &none           &none           &kp TAB          &kp SPACE  &to 0  &kp BACKSPACE   &kp ENTER       &none           &none            &none
             >;
